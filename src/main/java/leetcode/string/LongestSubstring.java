@@ -55,7 +55,7 @@ public class LongestSubstring {
             }else {
                 //TODO 记录最值
 
-                //左指针前移，缩小窗口
+                //不符合扩张条件，左指针前移，缩小窗口
                 left++;
             }
         }

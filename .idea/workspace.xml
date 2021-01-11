@@ -6,22 +6,15 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4ae1d8a-8a6d-4c4e-a9fd-62224e25a8bb" name="Default Changelist" comment="" />
+    <list default="true" id="b4ae1d8a-8a6d-4c4e-a9fd-62224e25a8bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/leetcode/string/LongestSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/leetcode/string/LongestSubstring.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,6 +63,7 @@
       <recent name="leetcode.linkedList.addTwoNumber" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Projects\leetcode_note_book" />
       <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\leetcode\string" />
       <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\leetcode\linkedList\addTwoNumber" />
       <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\note" />
@@ -148,8 +142,16 @@
       <option name="presentableId" value="Default" />
       <updated>1610328023675</updated>
       <workItem from="1610328027074" duration="25138000" />
-      <workItem from="1610369278735" duration="14000" />
+      <workItem from="1610369278735" duration="370000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化项目，添加题解：AddTwoNumber、LongestSubstring、TwoSum">
+      <created>1610369397131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610369397131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +173,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/../../.." />
     </ignored-roots>
+    <MESSAGE value="初始化项目，添加题解：AddTwoNumber、LongestSubstring、TwoSum" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化项目，添加题解：AddTwoNumber、LongestSubstring、TwoSum" />
   </component>
   <component name="WindowStateProjectService">
     <state x="440" y="94" key="#Project_Structure" timestamp="1610358451833">
@@ -221,6 +225,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610369292144" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1610369404967">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1610369404967" />
     <state x="690" y="279" key="extract.method.dialog" timestamp="1610358128773">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -237,9 +245,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610330046112" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610368608835">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610369543150">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610368608835" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610369543150" />
   </component>
 </project>
