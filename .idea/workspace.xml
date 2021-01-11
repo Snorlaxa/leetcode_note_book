@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:maven" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b4ae1d8a-8a6d-4c4e-a9fd-62224e25a8bb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../../../../Program Files/Apache Software Foundation/apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1mu0AMfn2NN4p9BV8eFyqKfcJj3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="leetcode.linkedList.addTwoNumber" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\leetcode\string" />
+      <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\leetcode\linkedList\addTwoNumber" />
+      <recent name="D:\work\Java\Project\leetcode_note_book\src\main\java\note" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.LongestSubstring">
+    <configuration name="AddTowNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedList.AddTowNumber" />
+      <module name="leetcode_note_book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AddTwoNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.linkedList.addTwoNumber.AddTwoNumber" />
+      <module name="leetcode_note_book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.linkedList.addTwoNumber.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.string.LongestSubstring" />
+      <module name="leetcode_note_book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TowSumSolution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.array.TowSumSolution" />
+      <module name="leetcode_note_book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.LongestSubstring" />
+        <item itemvalue="Application.AddTwoNumber" />
+        <item itemvalue="Application.TowSumSolution" />
+        <item itemvalue="Application.AddTowNumber" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b4ae1d8a-8a6d-4c4e-a9fd-62224e25a8bb" name="Default Changelist" comment="" />
+      <created>1610328023675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1610328023675</updated>
+      <workItem from="1610328027074" duration="25138000" />
+      <workItem from="1610369278735" duration="14000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/../../.." />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="440" y="94" key="#Project_Structure" timestamp="1610358451833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1610358451833" />
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1610359415644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1610359415644" />
+    <state x="649" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1610333900379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="649" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610333900379" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1610369095139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095139" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1610369095139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095139" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1610369095138">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095138" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1610369095139">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095139" />
+    <state width="1877" height="183" key="GridCell.Tab.1.bottom" timestamp="1610369095134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095134" />
+    <state width="1877" height="183" key="GridCell.Tab.1.center" timestamp="1610369095134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095134" />
+    <state width="1877" height="183" key="GridCell.Tab.1.left" timestamp="1610369095134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095134" />
+    <state width="1877" height="183" key="GridCell.Tab.1.right" timestamp="1610369095134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="183" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1610369095134" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1610369292144">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610369292144" />
+    <state x="690" y="279" key="extract.method.dialog" timestamp="1610358128773">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="279" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610358128773" />
+    <state x="600" y="380" key="git4idea.rebase.GitRebaseDialog" timestamp="1610368820821">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="600" y="380" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610368820821" />
+    <state x="668" y="419" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1610368902874">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="668" y="419" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610368902874" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1610330046112">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610330046112" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1610368608835">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610368608835" />
+  </component>
+</project>
