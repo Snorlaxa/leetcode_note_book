@@ -5,6 +5,9 @@ import java.util.Map;
 /**
  * @Author: Yzy
  * @Date: 2021/1/11 9:52
+ *
+ * 题意： 求两数组中和为target的下标
+ *
  * 借助map，key-value含义分别为：
  * key：nums数字
  * value：下标

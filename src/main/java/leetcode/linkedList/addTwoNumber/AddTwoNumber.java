@@ -47,7 +47,7 @@ public class AddTwoNumber {
      * @param l2
      * @return
      */
-    public ListNode model(ListNode l1, ListNode l2) {
+    private ListNode model(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(null);
         head.next = new ListNode(null);
         ListNode p = head;
