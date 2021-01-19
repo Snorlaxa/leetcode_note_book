@@ -1,4 +1,5 @@
 package leetcode.array;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -14,7 +15,7 @@ import java.util.Map;
  * 遍历nums，用差作为key查找map，如果存在，说明有对应相加为target的值，返回下标即可
  * 如果没有，将当前值的差存入map，等待后续判断
  */
-class TowSumSolution {
+class TwoSumSolution {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null) {
             return null;
@@ -28,23 +29,23 @@ class TowSumSolution {
             int n = target - nums[i];
             Integer res = map.get(n);
             if (res != null) {
-                return new int[]{res,i};
+                return new int[]{res, i};
             }
-            map.put(nums[i],i);
+            map.put(nums[i], i);
         }
         return null;
     }
 
     public static void main(String[] args) {
-        int [] nums = {1,2,3,4,5,6,7,8,9,10};
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int target = 11;
         int[] ints = newInstance().twoSum(nums, target);
-        for(int i:ints){
+        for (int i : ints) {
             System.out.println(i);
         }
     }
 
-    public static TowSumSolution newInstance(){
-        return new TowSumSolution();
+    public static TwoSumSolution newInstance() {
+        return new TwoSumSolution();
     }
 }

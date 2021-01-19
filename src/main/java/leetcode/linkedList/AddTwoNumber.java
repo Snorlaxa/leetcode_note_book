@@ -1,4 +1,4 @@
-package leetcode.linkedList.addTwoNumber;
+package leetcode.linkedList;
 import base.ListNode;
 
 /**
@@ -47,7 +47,7 @@ public class AddTwoNumber {
      * @param l2
      * @return
      */
-    private ListNode model(ListNode l1, ListNode l2) {
+    public ListNode pattern(ListNode l1, ListNode l2) {
         ListNode head = new ListNode(null);
         head.next = new ListNode(null);
         ListNode p = head;
