@@ -41,7 +41,7 @@ public class LongestSubstring {
      * @param str
      * @return
      */
-    public static int model(String str){
+    public static int pattern(String str){
         if(str.length()==0){
             return 0;
         }
