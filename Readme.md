@@ -17,11 +17,13 @@
 |----|----|
 |AddTwoNumber|两数相加|
 
-### String/SlidingWindow
+### String
 
 |题目|说明|
 |----|----|
 |LongestSubstring|最长子串|
+|LongestPalindrome|最长回文子串|
+
 
 ### Math
 
