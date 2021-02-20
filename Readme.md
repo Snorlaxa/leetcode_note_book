@@ -10,6 +10,11 @@
 |TowSum|两数之和|
 |MedianOfTwoSortArrays|两有序数组的中位数|
 
+### Back Tracing
+
+|题目|说明|
+|----|----|
+|GenerateParenthesis|括号生成|
 
 ### LinkedList
 
