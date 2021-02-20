@@ -17,6 +17,10 @@ public class ListNode {
         System.out.println(title);
         ListNode p = next;
         System.out.print(value);
+        if (p == null) {
+            System.out.println();
+            return;
+        }
         while (p.next != null) {
             System.out.print("=>");
             System.out.print(p.value);

@@ -99,7 +99,7 @@ public class AddTwoNumber {
     }
 
     public static void main(String[] args) {
-        ListNode l1 = createListNodes(4,1, 1);
+        ListNode l1 = createListNodes(1,1, 1);
         ListNode l2 = createListNodes(2, 5,1);
         l1.print("l1");
         l2.print("l2");
