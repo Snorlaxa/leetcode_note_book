@@ -12,7 +12,7 @@ import java.util.Map;
  * 遍历nums，用差作为key查找map，如果存在，说明有对应相加为target的值，返回下标即可
  * 如果没有，将当前值的差存入map，等待后续判断
  */
-class TwoSumSolution {
+class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         if (nums == null) {
             return null;
@@ -42,7 +42,7 @@ class TwoSumSolution {
         }
     }
 
-    public static TwoSumSolution newInstance() {
-        return new TwoSumSolution();
+    public static TwoSum newInstance() {
+        return new TwoSum();
     }
 }
