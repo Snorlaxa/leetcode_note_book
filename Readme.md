@@ -9,6 +9,7 @@
 |----|----|
 |TowSum|两数之和|
 |MedianOfTwoSortArrays|两有序数组的中位数|
+|NextPermutation|下一排序|
 
 ### Back Tracing
 
