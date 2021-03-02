@@ -1,7 +1,9 @@
 # Leetcode题目分类及刷题心得
 
 
-## 题目列表
+## 算法题目列表
+
+> 总数 12
 
 ### Array
 
@@ -15,6 +17,7 @@
 |题目|说明|
 |----|----|
 |GenerateParenthesis|括号生成|
+|CombinationSum|组合之和|
 
 ### LinkedList
 
@@ -45,3 +48,9 @@
 |HouseRobberII|强盗在环形街区抢劫|
 |MinPathSum|矩阵最短路径和|
 |UniquePaths|矩阵总路径数|
+
+## SQL题目列表
+
+|题目|说明|
+|----|----|
+|第N大的薪水||
