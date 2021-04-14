@@ -1,4 +1,4 @@
-package leetcode.backtracing;
+package leetcode.cataloged.backtracing;
 
 import java.util.ArrayList;
 import java.util.Arrays;

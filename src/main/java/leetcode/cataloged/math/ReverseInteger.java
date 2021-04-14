@@ -1,4 +1,4 @@
-package leetcode.math;
+package leetcode.cataloged.math;
 
 /**
  * @Author: Yzy

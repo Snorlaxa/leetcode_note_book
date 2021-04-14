@@ -1,4 +1,4 @@
-package leetcode.dynamicProgramming;
+package leetcode.cataloged.dynamicProgramming;
 
 /**
  * @Author: Yzy

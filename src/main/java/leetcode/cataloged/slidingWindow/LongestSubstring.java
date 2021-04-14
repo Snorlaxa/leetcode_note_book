@@ -1,4 +1,4 @@
-package leetcode.slidingWindow;
+package leetcode.cataloged.slidingWindow;
 
 /**
  * @Author: Yzy
