@@ -1,4 +1,4 @@
-package leetcode.string;
+package leetcode.cataloged.string;
 
 /**
  * @Author: Yzy

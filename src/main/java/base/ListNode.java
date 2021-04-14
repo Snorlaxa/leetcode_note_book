@@ -12,6 +12,10 @@ public class ListNode {
         this.value = value;
         this.next = null;
     }
+    public ListNode(Integer value,ListNode next) {
+        this.value = value;
+        this.next = next;
+    }
 
     public void print(String title) {
         System.out.println(title);
