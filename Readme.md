@@ -40,7 +40,7 @@
 |题目|说明|状态|
 |----|----|----|
 |ReverseInteger|翻转数字|<font color="gree">完成</font>|
-|DivideTwoNumber|两数相除|<font color="yellow">未完成</font>|
+|DivideTwoNumber|两数相除|<font color="gree">完成</font>|
 
 ### Dynamic Programming
 
@@ -57,7 +57,7 @@
 
 |题目|说明|状态|
 |----|----|----|
-|Lc53|最大子序和|<font color="yellow">未完成</font>|
+|Lc53|最大子序和|<font color="gree">完成</font>|
 
 
 ## SQL题目列表
