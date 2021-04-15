@@ -3,7 +3,7 @@
 
 ## 算法题目列表
 
-> 总数 19
+> 总数 20
 
 ### Array
 
@@ -12,6 +12,18 @@
 |TowSum|两数之和|<font color="gree">完成</font>|
 |MedianOfTwoSortArrays|两有序数组的中位数|<font color="gree">完成</font>|
 |NextPermutation|下一排序|<font color="gree">完成</font>|
+
+## DFS
+
+|题目|说明|状态|
+|----|----|----|
+|NumIslands|岛屿数量|<font color="gree">完成</font>|
+
+### DivideAndConquer
+
+|题目|说明|状态|
+|----|----|----|
+|MaxSubArray|最大子序和|<font color="gree">完成</font>|
 
 ### Back Tracing
 
@@ -40,7 +52,7 @@
 |题目|说明|状态|
 |----|----|----|
 |ReverseInteger|翻转数字|<font color="gree">完成</font>|
-|DivideTwoNumber|两数相除|<font color="yellow">未完成</font>|
+|DivideTwoNumber|两数相除|<font color="gree">完成</font>|
 
 ### Dynamic Programming
 
@@ -57,8 +69,7 @@
 
 |题目|说明|状态|
 |----|----|----|
-|Lc53|最大子序和|<font color="yellow">未完成</font>|
-
+|Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
 
