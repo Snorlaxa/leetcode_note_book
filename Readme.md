@@ -3,7 +3,7 @@
 
 ## 算法题目列表
 
-> 总数 19
+> 总数 20
 
 ### Array
 
@@ -12,6 +12,12 @@
 |TowSum|两数之和|<font color="gree">完成</font>|
 |MedianOfTwoSortArrays|两有序数组的中位数|<font color="gree">完成</font>|
 |NextPermutation|下一排序|<font color="gree">完成</font>|
+
+## DFS
+
+|题目|说明|状态|
+|----|----|----|
+|NumIslands|岛屿数量|<font color="gree">完成</font>|
 
 ### DivideAndConquer
 
@@ -63,8 +69,7 @@
 
 |题目|说明|状态|
 |----|----|----|
-|Lc200|岛屿数量|<font color="yellow">未完成</font>|
-
+|Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
 

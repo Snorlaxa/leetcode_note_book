@@ -1,4 +1,4 @@
-package leetcode.notarchived;
+package leetcode.cataloged.dfs;
 
 /**
  * @Author: Yzy
@@ -7,7 +7,7 @@ package leetcode.notarchived;
  * @题意: 给定2d网格图(其中 ， 1代表陆地 0代表水)，计算岛屿数量。 岛被水包围，通过水平或垂直连接相邻的土地而形成。求岛屿数量
  * @题解: O(n ^ 2)遍历，dfs查连通性，连通的数据修改为0，即已标记过的都去除
  */
-public class Lc200 {
+public class NumIslands {
     public int numIslands(char[][] grid) {
         int res = 0;
         for (int i = 0; i < grid.length; i++) {
@@ -44,7 +44,7 @@ public class Lc200 {
 
     public static void main(String[] args) {
         char[][] nums = {{'1','1','1','1','0'},{'1','1','0','1','0'},{'1','1','0','0','0'},{'0','0','0','0','0'}};
-        int res = new Lc200().numIslands(nums);
+        int res = new NumIslands().numIslands(nums);
         System.out.println(res);
     }
 }
