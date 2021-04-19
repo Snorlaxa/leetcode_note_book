@@ -65,10 +65,18 @@
 |UniquePaths|矩阵总路径数|<font color="gree">完成</font>|
 |ArithmeticSlices|数组中等差递增子区间的个数|<font color="yellow">未完成</font>|
 
+### TwoPointers
+|题目|说明|状态|
+|----|----|----|
+|MaxArea|蓄水|<font color="gree">完成</font>|
+
+
 ## 未归档
 
 |题目|说明|状态|
 |----|----|----|
+|Lc11|蓄水|<font color="gree">完成</font>|
+|Lc53|最大子序和|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
