@@ -1,4 +1,4 @@
-package leetcode.notarchived;
+package leetcode.notarchived.done;
 
 /**
  * @Author: Yzy

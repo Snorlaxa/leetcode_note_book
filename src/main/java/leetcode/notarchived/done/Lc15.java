@@ -1,4 +1,4 @@
-package leetcode.notarchived;
+package leetcode.notarchived.done;
 
 import java.util.ArrayList;
 import java.util.Arrays;
