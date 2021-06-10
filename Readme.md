@@ -3,7 +3,11 @@
 
 ## 算法题目列表
 
-> 总数 20
+> 总数 
+> 
+> 归档：20
+> 
+> 未归档：14
 
 ### Array
 
@@ -70,13 +74,23 @@
 |----|----|----|
 |MaxArea|蓄水|<font color="gree">完成</font>|
 
-
 ## 未归档
 
 |题目|说明|状态|
 |----|----|----|
 |Lc11|蓄水|<font color="gree">完成</font>|
+|Lc15|三数之和|<font color="gree">完成</font>|
+|Lc16|最接近的三数之和|<font color="gree">完成</font>|
+|Lc33|旋转数组中查找目标值|<font color="gree">完成</font>|
+|Lc34|查找目标数据的开始位置和结束位置|<font color="gree">完成</font>|
+|Lc38|外观数组|<font color="gree">完成</font>|
+|Lc39|组合总和|<font color="gree">完成</font>|
+|Lc40|组合总和2|<font color="gree">完成</font>|
+|Lc43|字符串相乘|<font color="gree">完成</font>|
+|Lc45|跳跃游戏2|<font color="gree">完成</font>|
+|Lc49|字母异位词分组|<font color="gree">完成</font>|
 |Lc53|最大子序和|<font color="gree">完成</font>|
+|Lc55|跳跃游戏|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
