@@ -15,7 +15,8 @@ public class Lc43 {
                 int n2 = num2.charAt(j) - '0';
                 int sum = nums[i + j + 1] + n1 * n2;
                 nums[i + j + 1] = sum % 10;
-                nums[i + j] = sum / 10;
+                // 加上进位
+                nums[i + j] += sum / 10;
             }
         }
         StringBuilder stringBuilder = new StringBuilder();
@@ -26,7 +27,17 @@ public class Lc43 {
         return stringBuilder.toString();
     }
 
+    /**
+     * 123
+     * 456
+     * 6 12 18
+     * 5 10 15
+     * 4 8 12
+     *
+     * @param args
+     */
     public static void main(String[] args) {
-        System.out.println(solution("0", "0"));
+        System.out.println(solution("123", "456"));
+        System.out.println(solution("456", "123"));
     }
 }
