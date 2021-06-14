@@ -7,7 +7,7 @@
 > 
 > 归档：20
 > 
-> 未归档：14
+> 未归档：19
 
 ### Array
 
@@ -89,8 +89,14 @@
 |Lc43|字符串相乘|<font color="gree">完成</font>|
 |Lc45|跳跃游戏2|<font color="gree">完成</font>|
 |Lc49|字母异位词分组|<font color="gree">完成</font>|
-|Lc53|最大子序和|<font color="gree">完成</font>|
+|Lc50|Power|<font color="gree">完成</font>|
+|Lc50|螺旋矩阵|<font color="gree">完成</font>|
+|Lc54|最大子序和|<font color="gree">完成</font>|
 |Lc55|跳跃游戏|<font color="gree">完成</font>|
+|Lc56|合并区间|<font color="gree">完成</font>|
+|Lc57|插入区间|<font color="gree">完成</font>|
+|Lc59|螺旋矩阵2|<font color="gree">完成</font>|
+|Lc61|旋转链表|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表

@@ -1,12 +1,9 @@
 package leetcode.notarchived.done;
 
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * @Author Yzy
  * @Date 2021/6/14 17:39
- * @题意: 给你一个正整数 n ，生成一个包含 1 到 n2 所有元素，且元素按顺时针顺序螺旋排列的 n x n 正方形矩阵 matrix 。
+ * @题意: 螺旋矩阵2。给你一个正整数 n ，生成一个包含 1 到 n2 所有元素，且元素按顺时针顺序螺旋排列的 n x n 正方形矩阵 matrix 。
  * 如：
  * 1 2 3
  * 8 9 4
