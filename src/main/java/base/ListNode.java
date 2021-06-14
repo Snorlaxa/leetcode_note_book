@@ -12,7 +12,13 @@ public class ListNode {
         this.value = value;
         this.next = null;
     }
-    public ListNode(Integer value,ListNode next) {
+
+    public ListNode() {
+        this.value = null;
+        this.next = null;
+    }
+
+    public ListNode(Integer value, ListNode next) {
         this.value = value;
         this.next = next;
     }

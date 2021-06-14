@@ -13,19 +13,14 @@ package leetcode.notarchived.done;
  */
 public class Lc55 {
     public static boolean solution(int[] nums) {
-        // 从i可以到的最远位置
-        int end = nums[0];
         int maxi = 0;
         for (int i = 0; i < nums.length; i++) {
-            // 说明在上一次查找后，end==i==maxi，即最优解的最后一位等于0，如果能到达最后，最后一位应该至少等于1，即maxi=end+1；
-            if (i > end) return false;
-            maxi = Math.max(i + nums[i], maxi);
-            if (maxi >= nums.length) return true;
-            if (i == end) {
-                end = maxi;
+            if (i <= maxi) {
+                maxi = Math.max(i + nums[i], maxi);
+                if (maxi >= nums.length-1) return true;
             }
         }
-        return true;
+        return false;
     }
 
     public static void main(String[] args) {

@@ -14,21 +14,19 @@ public class Lc49 {
         Map<String, List<String>> res = new HashMap<>();
         for (String s : strs) {
             // 构建不同异位词的共同点，组织成字符串
-            int[] rule = new int[26];
-            for (int i = 0; i < s.length(); i++) {
-                char c = s.charAt(i);
-                rule[c - 'a'] += 1;
-            }
-            String key = Arrays.toString(rule);
-            res.compute(key, (k, v) -> {
-                if (v == null) {
-                    v = new ArrayList<>();
-                }
-                v.add(s);
-                return v;
-            });
+//            int[] rule = new int[26];
+//            for (int i = 0; i < s.length(); i++) {
+//                char c = s.charAt(i);
+//                rule[c - 'a'] += 1;
+//            }
+            char[] chars = s.toCharArray();
+            Arrays.sort(chars);
+            String key = new String(chars);
+            List<String> list = res.getOrDefault(key, new ArrayList<>());
+            list.add(s);
+            res.put(key, list);
         }
-        return res.values();
+        return new ArrayList<>(res.values());
     }
 
     public static void main(String[] args) {
