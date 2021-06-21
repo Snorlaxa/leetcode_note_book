@@ -6,8 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @Author Yzy
- * @Date 2021/6/13 22:25
+ * @Author: Yzy
+ * @Date: 2021/6/13 22:25
  * @题意: 插入区间。在多个无重叠区间内插入一个新的区间，使得新生成的区间互不干扰
  */
 public class Lc57 {

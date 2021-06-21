@@ -26,8 +26,27 @@ public class Lc45 {
         return count;
     }
 
+    public static int solution2(int[] nums) {
+        if (nums.length == 1) return 0;
+        int step = 1;
+        int next = 0;
+        while ((next = findnext(nums, next)) < nums.length - 1) step++;
+        return step;
+    }
+
+    private static int findnext(int[] nums, int current) {
+        if (nums[current] + current >= nums.length - 1) return nums.length - 1;
+        int next = current;
+        for (int i = current; i <= nums[current] + current; i++) {
+            if (i + nums[i] > next + nums[next]) {
+                next = i;
+            }
+        }
+        return next;
+    }
+
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 0};
-        System.out.println(solution(nums));
+        int[] nums = new int[]{1, 1, 1, 1};
+        System.out.println(solution2(nums));
     }
 }

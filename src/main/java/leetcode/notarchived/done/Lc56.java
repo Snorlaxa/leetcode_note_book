@@ -6,8 +6,8 @@ import java.util.Comparator;
 import java.util.List;
 
 /**
- * @Author Yzy
- * @Date 2021/6/13 11:08
+ * @Author: Yzy
+ * @Date: 2021/6/13 11:08
  * @题意: 合并区间
  */
 public class Lc56 {

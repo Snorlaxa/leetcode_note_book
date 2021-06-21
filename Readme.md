@@ -7,7 +7,7 @@
 > 
 > 归档：20
 > 
-> 未归档：19
+> 未归档：23
 
 ### Array
 
@@ -97,6 +97,9 @@
 |Lc57|插入区间|<font color="gree">完成</font>|
 |Lc59|螺旋矩阵2|<font color="gree">完成</font>|
 |Lc61|旋转链表|<font color="gree">完成</font>|
+|Lc71|简化路径|<font color="gree">完成</font>|
+|Lc73|矩阵置零|<font color="gree">完成</font>|
+|Lc74|搜索二维矩阵|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表

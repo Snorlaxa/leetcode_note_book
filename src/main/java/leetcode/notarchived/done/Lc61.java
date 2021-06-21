@@ -3,8 +3,8 @@ package leetcode.notarchived.done;
 import base.ListNode;
 
 /**
- * @Author Yzy
- * @Date 2021/6/14 17:56
+ * @Author: Yzy
+ * @Date: 2021/6/14 17:56
  * @题意: 旋转链表。给你一个链表的头节点 head，旋转链表，将链表每个节点向右移动 k 个位置。
  * 如：1 2 3 4 5 => 4 5 1 2 3
  */
