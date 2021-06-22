@@ -1,5 +1,6 @@
 # Leetcode题目分类及刷题心得
 
+> [Leetcode 题解思路总结](LeetcodeNote.md)
 
 ## 算法题目列表
 
