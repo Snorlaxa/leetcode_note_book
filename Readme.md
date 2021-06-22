@@ -8,7 +8,7 @@
 > 
 > 归档：20
 > 
-> 未归档：23
+> 未归档：24
 
 ### Array
 
@@ -101,6 +101,7 @@
 |Lc71|简化路径|<font color="gree">完成</font>|
 |Lc73|矩阵置零|<font color="gree">完成</font>|
 |Lc74|搜索二维矩阵|<font color="gree">完成</font>|
+|Lc75|颜色分类|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
