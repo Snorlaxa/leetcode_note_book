@@ -85,8 +85,15 @@ public class Lc73 {
 
 
         // 标记
-        for (int i = r - 1; i > 0; i--)
-            for (int j = c - 1; j > 0; j--)
+//        for (int i = r - 1; i > 0; i--)
+//            for (int j = c - 1; j > 0; j--)
+//                if (matrix[i][j] == 0) {
+//                    matrix[i][0] = 0;
+//                    matrix[0][j] = 0;
+//                }
+
+        for (int i = 1; i < r; i++)
+            for (int j = 1; j < c; j++)
                 if (matrix[i][j] == 0) {
                     matrix[i][0] = 0;
                     matrix[0][j] = 0;
@@ -111,6 +118,32 @@ public class Lc73 {
         if (firstcol == 1) for (int k = 0; k < r; k++) matrix[k][0] = 0;
     }
 
+    // 优化版
+    public static void solution3(int[][] matrix) {
+        int r = matrix.length;
+        if (r == 0) return;
+        int c = matrix[0].length;
+        boolean iszero = false;
+        // 标记
+        for (int i = 0; i < r; i++) {
+            if (matrix[i][0] == 0) iszero = true;
+            for (int j = 1; j < c; j++) {
+                if (matrix[i][j] == 0) {
+                    matrix[i][0] = matrix[0][j] = 0;
+                }
+            }
+        }
+        // 置零
+        // 需要倒着访问，不然会把第一行标记更新掉
+        for (int i = r - 1; i >= 0; i--) {
+            for (int j = c - 1; j >= 1; j--) {
+                if (matrix[i][0] == 0 || matrix[0][j] == 0) matrix[i][j] = 0;
+            }
+            // 一行遍历完，这一行的标记已经不需要了，如果第一列有0可以置0
+            if (iszero) matrix[i][0] = 0;
+        }
+    }
+
     public static void main(String[] args) {
         int[][] matrix = new int[][]{
                 {0, 1, 1, 0},
@@ -124,7 +157,7 @@ public class Lc73 {
          * {0,0,0,0},
          * {0,1,0,0}
          */
-        solution02(matrix);
+        solution3(matrix);
         for (int[] row : matrix) {
             for (int i : row) {
                 System.out.print(i);
