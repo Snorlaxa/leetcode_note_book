@@ -8,7 +8,7 @@
 > 
 > 归档：20
 > 
-> 未归档：24
+> 未归档：26
 
 ### Array
 
@@ -79,6 +79,7 @@
 
 |题目|说明|状态|
 |----|----|----|
+|Lc04|寻找两个正序数组的中位数|<font color="gree">完成</font>|
 |Lc11|蓄水|<font color="gree">完成</font>|
 |Lc15|三数之和|<font color="gree">完成</font>|
 |Lc16|最接近的三数之和|<font color="gree">完成</font>|
@@ -102,6 +103,7 @@
 |Lc73|矩阵置零|<font color="gree">完成</font>|
 |Lc74|搜索二维矩阵|<font color="gree">完成</font>|
 |Lc75|颜色分类|<font color="gree">完成</font>|
+|Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
