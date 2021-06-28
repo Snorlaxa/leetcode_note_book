@@ -8,7 +8,7 @@
 > 
 > 归档：20
 > 
-> 未归档：26
+> 未归档：30
 
 ### Array
 
@@ -103,6 +103,10 @@
 |Lc73|矩阵置零|<font color="gree">完成</font>|
 |Lc74|搜索二维矩阵|<font color="gree">完成</font>|
 |Lc75|颜色分类|<font color="gree">完成</font>|
+|Lc77|组合|<font color="gree">完成</font>|
+|Lc78|子集|<font color="gree">完成</font>|
+|Lc79|单词搜索|<font color="gree">完成</font>|
+|Lc80|删除有序数组中的重复项 II|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
