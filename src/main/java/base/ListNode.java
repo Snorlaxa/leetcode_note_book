@@ -23,8 +23,7 @@ public class ListNode {
         this.next = next;
     }
 
-    public void print(String title) {
-        System.out.println(title);
+    public void print() {
         ListNode p = next;
         System.out.print(value);
         if (p == null) {
@@ -32,11 +31,39 @@ public class ListNode {
             return;
         }
         while (p.next != null) {
-            System.out.print("=>");
+            System.out.print("->");
             System.out.print(p.value);
             p = p.next;
         }
-        System.out.print("=>");
+        System.out.print("->");
+        System.out.print(p.value);
+        System.out.println();
+    }
+
+    public static ListNode fromArray(int[] nums) {
+        ListNode head = new ListNode();
+        ListNode p = head;
+        for (int i : nums) {
+            p.next = new ListNode(i);
+            p = p.next;
+        }
+        return head.next;
+    }
+
+    public static void print(ListNode head) {
+        if (head == null) return;
+        ListNode p = head.next;
+        System.out.print(head.value);
+        if (p == null) {
+            System.out.println();
+            return;
+        }
+        while (p.next != null) {
+            System.out.print("->");
+            System.out.print(p.value);
+            p = p.next;
+        }
+        System.out.print("->");
         System.out.print(p.value);
         System.out.println();
     }

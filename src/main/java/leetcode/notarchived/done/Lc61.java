@@ -47,6 +47,6 @@ public class Lc61 {
             p = p.next;
         }
         ListNode solution = solution(head, 2);
-        solution.print("结果:");
+        ListNode.print(solution);
     }
 }

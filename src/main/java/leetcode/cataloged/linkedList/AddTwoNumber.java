@@ -1,4 +1,5 @@
 package leetcode.cataloged.linkedList;
+
 import base.ListNode;
 
 /**
@@ -43,6 +44,7 @@ public class AddTwoNumber {
 
     /**
      * 双链表单个while循环处理模板
+     *
      * @param l1
      * @param l2
      * @return
@@ -99,12 +101,12 @@ public class AddTwoNumber {
     }
 
     public static void main(String[] args) {
-        ListNode l1 = createListNodes(1,1, 1);
-        ListNode l2 = createListNodes(2, 5,1);
-        l1.print("l1");
-        l2.print("l2");
+        ListNode l1 = createListNodes(1, 1, 1);
+        ListNode l2 = createListNodes(2, 5, 1);
+        ListNode.print(l1);
+        ListNode.print(l2);
         ListNode listNode = newInstance().addTowNumbers(l1, l2);
-        listNode.print("result");
+        ListNode.print(listNode);
     }
 
     public static AddTwoNumber newInstance() {
