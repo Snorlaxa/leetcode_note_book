@@ -1,4 +1,4 @@
-package leetcode.notarchived.todo;
+package leetcode.notarchived.done;
 
 /**
  * @Author: 余子毅
@@ -17,22 +17,32 @@ public class Lc91 {
          * 动态规划
          */
         int[] nums = new int[s.length()];
+        if (s.startsWith("0")) return 0;
         for (int i = 0; i < s.length(); i++) {
             int cur = s.charAt(i) - '0';
-            if (cur <= 0 || cur > 6) return 0;
             if (i == 0) nums[i] = 1;
             else if (i == 1) {
                 int before = s.charAt(0) - '0';
-                nums[i] = (cur + 10 * before > 26) ? 1 : 2;
+                nums[i] = (before == 0 || (cur + 10 * before > 26)) ? 1 : 2;
+                if (cur == 0) nums[i] -= 1;
             } else {
-                int before = s.charAt(0) - '0';
-                nums[i] = (cur + 10 * before > 26) ? nums[i - 1] : nums[i - 2] + nums[i - 1];
+                int before = s.charAt(i - 1) - '0';
+                nums[i] = (before == 0 || (cur + 10 * before > 26)) ? nums[i - 1] : nums[i - 1] + nums[i - 2];
+                if (cur == 0) nums[i] -= nums[i - 1];
             }
         }
         return nums[s.length() - 1];
     }
 
     public static void main(String[] args) {
-        System.out.println(solution("19"));
+        System.out.println(solution("12706"));
+        /**
+         * 127206
+         * 1 =1
+         * 1 2 | 12 =2
+         * 1 2 7| 12 7| =2
+         * 1 2 7 2|12 7 2| =2
+         * 1 2 7 2 0|12 7 2 0| 12 7 20| = 1
+         */
     }
 }

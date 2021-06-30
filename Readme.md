@@ -8,7 +8,7 @@
 > 
 > 归档：20
 > 
-> 未归档：30
+> 未归档：35
 
 ### Array
 
@@ -107,6 +107,11 @@
 |Lc78|子集|<font color="gree">完成</font>|
 |Lc79|单词搜索|<font color="gree">完成</font>|
 |Lc80|删除有序数组中的重复项 II|<font color="gree">完成</font>|
+|Lc81|搜索旋转数组 II|<font color="gree">完成</font>|
+|Lc82|删除排序链表中的重复元素 II|<font color="gree">完成</font>|
+|Lc86|分隔链表|<font color="gree">完成</font>|
+|Lc90|格雷编码|<font color="gree">完成</font>|
+|Lc91|解码方法|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 

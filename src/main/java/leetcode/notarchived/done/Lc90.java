@@ -1,4 +1,4 @@
-package leetcode.notarchived.todo;
+package leetcode.notarchived.done;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -14,10 +14,7 @@ public class Lc90 {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
         Deque<Integer> deque = new ArrayDeque<>();
-        for (int i = 0; i <= nums.length; i++) {
-            dfs(res, deque, nums, 0, i);
-            deque.clear();
-        }
+        dfs(res, deque, nums, 0);
         return res;
     }
 
@@ -26,13 +23,9 @@ public class Lc90 {
      * @param deque 双端队列，用于存储当前结果
      * @param nums  原始数组
      * @param begin 搜索起始位置
-     * @param left  所求子集还需多少数字
      */
-    private static void dfs(List<List<Integer>> res, Deque<Integer> deque, int[] nums, int begin, int left) {
-        if (left == 0) {
-            res.add(new ArrayList<>(deque));
-            return;
-        }
+    private static void dfs(List<List<Integer>> res, Deque<Integer> deque, int[] nums, int begin) {
+        res.add(new ArrayList<>(deque));
 
         for (int i = begin; i < nums.length; i++) {
             // 剪枝，去除重复
@@ -41,7 +34,7 @@ public class Lc90 {
                 continue;
 
             deque.addLast(nums[i]);
-            dfs(res, deque, nums, i + 1, left - 1);
+            dfs(res, deque, nums, i + 1);
             deque.removeLast();
         }
     }
