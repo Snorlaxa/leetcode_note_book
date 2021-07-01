@@ -1,7 +1,6 @@
-package leetcode.notarchived.todo;
+package leetcode.notarchived.done;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 /**
  * @Author: 余子毅
@@ -45,7 +44,7 @@ public class Lc93 {
     }
 
     public static void main(String[] args) {
-        String s = "25525";
+        String s = "0";
         List<String> solution = solution(s);
         for (String r : solution) {
             System.out.println(r);

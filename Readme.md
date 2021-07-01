@@ -8,7 +8,7 @@
 > 
 > 归档：20
 > 
-> 未归档：35
+> 未归档：37
 
 ### Array
 
@@ -112,6 +112,8 @@
 |Lc86|分隔链表|<font color="gree">完成</font>|
 |Lc90|格雷编码|<font color="gree">完成</font>|
 |Lc91|解码方法|<font color="gree">完成</font>|
+|Lc92|反转链表2|<font color="gree">完成</font>|
+|Lc93|复原IP地址|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 

@@ -1,4 +1,4 @@
-package leetcode.notarchived.todo;
+package leetcode.notarchived.done;
 
 import base.ListNode;
 
@@ -54,9 +54,9 @@ public class Lc92 {
     }
 
     public static void main(String[] args) {
-        int[] nums = new int[]{1, 2, 3, 4, 5};
+        int[] nums = new int[]{5};
         ListNode head = ListNode.fromArray(nums);
-        ListNode solution = solution(head, 4, 5);
+        ListNode solution = solution(head, 1, 1);
         ListNode.print(solution);
     }
 }
