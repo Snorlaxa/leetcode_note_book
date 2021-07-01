@@ -20,12 +20,12 @@ public class AddTwoNumber {
             if (l1 == null) {
                 x = 0;
             } else {
-                x = l1.value;
+                x = l1.val;
             }
             if (l2 == null) {
                 y = 0;
             } else {
-                y = l2.value;
+                y = l2.val;
             }
             int value = x + y + add;
             add = value / 10;
@@ -60,13 +60,13 @@ public class AddTwoNumber {
                 // 链表1终结时，设置无效值
                 x = 0;
             } else {
-                x = l1.value;
+                x = l1.val;
             }
             if (l2 == null) {
                 // 链表2终结时，设置无效值
                 y = 0;
             } else {
-                y = l2.value;
+                y = l2.val;
             }
             /**
              * TODO

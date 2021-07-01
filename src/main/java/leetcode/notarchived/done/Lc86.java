@@ -20,7 +20,7 @@ public class Lc86 {
         ListNode left = new ListNode(), right = new ListNode(), p = head;
         ListNode lhead = left, rhead = right;
         while (p != null) {
-            if (p.value < x) {
+            if (p.val < x) {
                 left.next = p;
                 left = left.next;
             } else {

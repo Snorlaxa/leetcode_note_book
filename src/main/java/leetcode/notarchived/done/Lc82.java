@@ -20,7 +20,7 @@ public class Lc82 {
         while (fast != null) {
             int count = 0;
             while (fast.next != null
-                    && fast.value.equals(fast.next.value)) {
+                    && fast.val.equals(fast.next.val)) {
                 fast = fast.next;
                 count++;
             }

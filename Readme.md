@@ -1,4 +1,4 @@
-# Leetcode题目分类及刷题心得
+# Leetcode刷题统计
 
 > [Leetcode 题解思路总结](LeetcodeNote.md)
 
