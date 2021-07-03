@@ -4,11 +4,11 @@
 
 ## 算法题目列表
 
-> 总数 
-> 
+> 总数
+>
 > 归档：20
-> 
-> 未归档：37
+>
+> 未归档：39
 
 ### Array
 
@@ -51,7 +51,6 @@
 |LongestSubstring|最长子串|<font color="gree">完成</font>|
 |LongestPalindrome|最长回文子串|<font color="gree">完成</font>|
 
-
 ### Math
 
 |题目|说明|状态|
@@ -71,6 +70,7 @@
 |ArithmeticSlices|数组中等差递增子区间的个数|<font color="yellow">未完成</font>|
 
 ### TwoPointers
+
 |题目|说明|状态|
 |----|----|----|
 |MaxArea|蓄水|<font color="gree">完成</font>|
@@ -114,6 +114,8 @@
 |Lc91|解码方法|<font color="gree">完成</font>|
 |Lc92|反转链表2|<font color="gree">完成</font>|
 |Lc93|复原IP地址|<font color="gree">完成</font>|
+|Lc93|不同二叉搜索树2|<font color="gree">完成</font>|
+|Lc93|不同的二叉搜索树|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
