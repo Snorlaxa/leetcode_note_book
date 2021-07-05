@@ -8,7 +8,7 @@
 >
 > 归档：20
 >
-> 未归档：39
+> 未归档：40
 
 ### Array
 
@@ -117,6 +117,7 @@
 |Lc93|不同二叉搜索树2|<font color="gree">完成</font>|
 |Lc93|不同的二叉搜索树|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
+|Lc128|最长连续序列|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 
 ## SQL题目列表
