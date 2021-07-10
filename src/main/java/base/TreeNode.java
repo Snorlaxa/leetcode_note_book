@@ -53,4 +53,21 @@ public class TreeNode {
         }
         return res;
     }
+
+    public static TreeNode fromArray(Integer[] nums) {
+        return createTree(nums, 0);
+    }
+
+    private static TreeNode createTree(Integer[] nums, int index) {
+        TreeNode root = null;
+        // 创建以index所在节点为根节点的树
+        if (index < nums.length) {
+            Integer cur = nums[index];
+            if (cur == null) return null;
+            root = new TreeNode(cur);
+            root.left = createTree(nums, 2 * index + 1);
+            root.right = createTree(nums, 2 * index + 2);
+        }
+        return root;
+    }
 }
