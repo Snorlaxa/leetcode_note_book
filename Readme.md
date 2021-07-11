@@ -8,7 +8,7 @@
 >
 > 归档：20
 >
-> 未归档：40
+> 未归档：44
 
 ### Array
 
@@ -115,10 +115,14 @@
 |Lc92|反转链表2|<font color="gree">完成</font>|
 |Lc93|复原IP地址|<font color="gree">完成</font>|
 |Lc93|不同二叉搜索树2|<font color="gree">完成</font>|
-|Lc93|不同的二叉搜索树|<font color="gree">完成</font>|
+|Lc96|不同的二叉搜索树|<font color="gree">完成</font>|
+|Lc97|交错字符串|<font color="gree">完成</font>|
+|Lc98|验证二叉搜索树|<font color="gree">完成</font>|
+|Lc99|恢复二叉树|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc128|最长连续序列|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
+|Lc274|H指数|<font color="gree">完成</font>|
 
 ## SQL题目列表
 
