@@ -32,18 +32,19 @@ public class TreeNode {
         deque.add(root);
         while (!deque.isEmpty() && deep > 0) {
             int n = deque.size();
+            System.out.print("[ ");
             for (int i = 0; i < n; i++) {
                 TreeNode treeNode = deque.poll();
                 if (treeNode == null) {
                     System.out.print("null ");
                 } else {
-                    System.out.print(treeNode.val + "\t");
+                    System.out.print(treeNode.val + " ");
                     deque.offer(treeNode.left);
                     deque.offer(treeNode.right);
                 }
             }
+            System.out.println("]");
             deep--;
-            System.out.println();
         }
     }
 
