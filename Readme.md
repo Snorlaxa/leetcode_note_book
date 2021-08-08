@@ -4,11 +4,11 @@
 
 ## 算法题目列表
 
-> 总数: 71
+> 总数: 72
 >
 > 归档：20
 >
-> 未归档：51
+> 未归档：52
 
 ### Array
 
@@ -128,6 +128,7 @@
 |Lc109|有序链表构造平衡二叉树|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc128|最长连续序列|<font color="gree">完成</font>|
+|Lc130|被围绕的区域|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 |Lc274|H指数|<font color="gree">完成</font>|
 
