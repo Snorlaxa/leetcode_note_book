@@ -27,6 +27,7 @@ public class Lc120 {
                 else {
                     dp[j] = Math.min(dp[j - 1], dp[j]) + row.get(j);
                 }
+
             }
         }
         int min = 10001;
