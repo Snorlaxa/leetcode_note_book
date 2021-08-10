@@ -9,7 +9,7 @@ import java.util.List;
  */
 public class Lc131 {
     public static List<List<String>> solution(String s) {
-
+        return null;
     }
 
     public static void main(String[] args) {
