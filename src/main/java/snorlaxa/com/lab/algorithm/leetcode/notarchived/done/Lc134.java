@@ -1,4 +1,4 @@
-package snorlaxa.com.lab.algorithm.leetcode.notarchived.todo;
+package snorlaxa.com.lab.algorithm.leetcode.notarchived.done;
 
 /**
  * @Author: 余子毅
@@ -15,12 +15,14 @@ public class Lc134 {
          */
         for (int i = 0; i < gas.length; ) {
             if (gas[i] >= cost[i]) {
-                int res = gas[i];
+                // 能走到下一个加油站
+                int res = gas[i] - cost[i];
                 int j = i + 1;
                 while (j % gas.length != i) {
-                    res -= cost[(j - 1) % gas.length];
-                    if (res < 0) break;
                     res += gas[j % gas.length];
+                    //往下一个加油站走
+                    res -= cost[j % gas.length];
+                    if (res < 0) break;
                     j++;
                 }
                 if (res >= 0) return i;
@@ -31,8 +33,8 @@ public class Lc134 {
     }
 
     public static void main(String[] args) {
-        int[] gas = new int[]{1, 2, 3, 4, 5};
-        int[] cost = new int[]{3, 4, 5, 1, 2};
+        int[] gas = new int[]{2, 3, 4};
+        int[] cost = new int[]{3, 4, 3};
         System.out.println(solution(gas, cost));
     }
 }
