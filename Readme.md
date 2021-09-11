@@ -4,11 +4,11 @@
 
 ## 算法题目列表
 
-> 总数: 76
+> 总数: 78
 >
 > 归档：20
 >
-> 未归档：56
+> 未归档：58
 
 ### Array
 
@@ -128,6 +128,8 @@
 |Lc109|有序链表构造平衡二叉树|<font color="gree">完成</font>|
 |Lc111|二叉树的最小深度|<font color="gree">完成</font>|
 |Lc120|三角形最小路径和|<font color="gree">完成</font>|
+|Lc121|买卖股票的最佳时机|<font color="gree">完成</font>|
+|Lc122|买卖股票的最佳时机2|<font color="gree">完成</font>|
 |Lc128|最长连续序列|<font color="gree">完成</font>|
 |Lc130|被围绕的区域|<font color="gree">完成</font>|
 |Lc131|分割回文串|<font color="gree">完成</font>|
