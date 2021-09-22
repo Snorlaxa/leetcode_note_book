@@ -3,6 +3,7 @@ package snorlaxa.com.lab.algorithm.base;
 /**
  * @Author: Yzy
  * @Date: 2021/1/11 11:10
+ * 单链表节点
  */
 public class ListNode {
     public Integer val;

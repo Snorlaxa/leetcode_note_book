@@ -5,9 +5,9 @@ import java.util.*;
 /**
  * @Author: 余子毅
  * @Date: 2021/6/23 0:53
+ * 二叉树节点
  */
 public class TreeNode {
-    private final static TreeNode END_NODE = new TreeNode();
     public int val = 0;
     public TreeNode left = null;
     public TreeNode right = null;
