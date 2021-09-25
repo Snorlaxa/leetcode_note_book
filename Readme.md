@@ -4,11 +4,11 @@
 
 ## 算法题目列表
 
-> 总数: 82
+> 总数: 85
 >
 > 归档：20
 >
-> 未归档：62
+> 未归档：65
 
 ### Array
 
@@ -138,6 +138,9 @@
 |Lc134|加油站|<font color="gree">完成</font>|
 |Lc137|只出现一次的数字 II|<font color="gree">完成</font>|
 |Lc139|单词拆分|<font color="gree">完成</font>|
+|Lc141|环形链表|<font color="gree">完成</font>|
+|Lc142|环形链表2|<font color="gree">完成</font>|
+|Lc143|重排链表|<font color="gree">完成</font>|
 |Lc198|打家劫舍|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 |Lc274|H指数|<font color="gree">完成</font>|
