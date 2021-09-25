@@ -1,9 +1,6 @@
 package snorlaxa.com.lab.algorithm.base;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * @Author: 余子毅
@@ -20,21 +17,29 @@ public class Node {
     }
 
     /**
-     * TODO 从值数组和邻接矩阵生成图，随机返回一个节点
+     * 邻接矩阵生成图，节点下标就是节点的值
      *
      * @param matrix 邻接矩阵
      */
     public static Node fromMatrix(int[][] matrix) {
         int n = matrix.length;
-        Set<Node> set = new HashSet<>();
+        if (n <= 0) return null;
+
+        Map<Integer, Node> nodeHashMap = new HashMap<>();
         for (int i = 1; i <= n; i++) {
             // 节点序号
             // 创建节点
             Node node = new Node(i, new ArrayList<>());
+            nodeHashMap.putIfAbsent(i, node);
             for (int next : matrix[i - 1]) {
-
+                if (nodeHashMap.containsKey(next)) {
+                    node.neighbors.add(nodeHashMap.get(next));
+                } else {
+                    Node nextNode = new Node(next, new ArrayList<>());
+                    nodeHashMap.put(next, nextNode);
+                }
             }
         }
-        return null;
+        return nodeHashMap.get(1);
     }
 }
