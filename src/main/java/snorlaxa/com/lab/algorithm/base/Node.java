@@ -37,6 +37,7 @@ public class Node {
                 } else {
                     Node nextNode = new Node(next, new ArrayList<>());
                     nodeHashMap.put(next, nextNode);
+                    node.neighbors.add(nextNode);
                 }
             }
         }

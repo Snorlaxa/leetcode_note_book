@@ -1,4 +1,4 @@
-package acwing.dp;
+package snorlaxa.com.lab.algorithm.acwing.dp;
 
 /**
  * @Author: Yzy

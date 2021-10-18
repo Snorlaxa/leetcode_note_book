@@ -1,4 +1,4 @@
-package acwing.basic;
+package snorlaxa.com.lab.algorithm.acwing.basic;
 
 
 /**
