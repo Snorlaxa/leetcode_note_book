@@ -145,6 +145,25 @@
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 |Lc274|H指数|<font color="gree">完成</font>|
 
+## ACWing
+|题目|说明|状态|
+|----|----|----|
+|AcWing 785|快速排序|<font color="gree">完成</font>|
+|AcWing 786|第k个数|<font color="gree">完成</font>|
+|AcWing 787|归并排序|<font color="gree">完成</font>|
+|AcWing 788|逆序对的数量|<font color="gree">完成</font>|
+|AcWing 789|数的范围|<font color="gree">完成</font>|
+|AcWing 790|数的三次方根|<font color="gree">完成</font>|
+|AcWing 791|高精度加法|<font color="gree">完成</font>|
+|AcWing 792|高精度减法|<font color="gree">完成</font>|
+|AcWing 793|高精度乘法|<font color="gree">完成</font>|
+|AcWing 794|高精度除法|<font color="gree">完成</font>|
+|AcWing 795|前缀和|<font color="gree">完成</font>|
+|AcWing 796|子矩阵的和|<font color="gree">完成</font>|
+|AcWing 797|差分|<font color="gree">完成</font>|
+|AcWing 798|差分矩阵|<font color="gree">完成</font>|
+
+
 ## SQL题目列表
 
 |题目|说明|状态|
