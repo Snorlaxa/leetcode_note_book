@@ -144,6 +144,7 @@
 |Lc198|打家劫舍|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
 |Lc274|H指数|<font color="gree">完成</font>|
+|Lc275|H指数II|<font color="gree">完成</font>|
 
 ## ACWing
 |题目|说明|状态|
