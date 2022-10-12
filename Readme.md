@@ -4,11 +4,13 @@
 
 ## 算法题目列表
 
-> 总数: 85
+> 总数: 107
 >
 > 归档：20
 >
-> 未归档：65
+> 未归档：73
+> 
+> acwing：14
 
 ### Array
 
@@ -141,10 +143,17 @@
 |Lc141|环形链表|<font color="gree">完成</font>|
 |Lc142|环形链表2|<font color="gree">完成</font>|
 |Lc143|重排链表|<font color="gree">完成</font>|
+|Lc151|反转字符串中的单词|<font color="gree">完成</font>|
+|Lc152|乘积最大子数组|<font color="gree">完成</font>|
+|Lc162|寻找峰值|<font color="gree">完成</font>|
+|Lc172|阶乘后的零|<font color="gree">完成</font>|
+|Lc179|最大数|<font color="gree">完成</font>|
 |Lc198|打家劫舍|<font color="gree">完成</font>|
 |Lc200|岛屿数量|<font color="gree">完成</font>|
+|Lc221|最大正方形|<font color="gree">完成</font>|
 |Lc274|H指数|<font color="gree">完成</font>|
 |Lc275|H指数II|<font color="gree">完成</font>|
+|Lc300|最长递增子序列|<font color="gree">完成</font>|
 
 ## ACWing
 |题目|说明|状态|
