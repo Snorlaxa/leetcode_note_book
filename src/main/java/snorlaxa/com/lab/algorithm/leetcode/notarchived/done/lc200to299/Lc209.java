@@ -1,4 +1,4 @@
-package snorlaxa.com.lab.algorithm.leetcode.notarchived.todo;
+package snorlaxa.com.lab.algorithm.leetcode.notarchived.done.lc200to299;
 
 /**
  * 长度最小的子数组
